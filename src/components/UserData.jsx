@@ -11,14 +11,12 @@ function UserData() {
         .get(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
         .then((response) =>setData(response.data))
         .catch((error)=>console.log(error));
-      
-    
-     
-      
+       
     }, []);
     
   return (
-    <div className="data">
+   
+    <div className="container" style={{ marginBotttom: 50}}>
       {data?.map((post, index) => (
         <div key={index} className="post">
           <h2 className="post-title">
@@ -29,8 +27,8 @@ function UserData() {
         </div>
       ))}
     </div>
+   
   );
- 
 }
 
       
