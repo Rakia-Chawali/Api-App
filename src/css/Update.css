@@ -1,0 +1,17 @@
+
+body{
+    background-image: url(https://cdn.dribbble.com/users/1195555/screenshots/10828994/media/72545969c35cb460fbb553f46c170a7d.gif);
+    background-size: cover;
+     height: 100vh;
+    padding:0;
+    margin:0;
+    margin-bottom: 0;
+}
+
+
+
+
+.Card{
+    width: 200px;
+    margin-bottom: 3%;
+}

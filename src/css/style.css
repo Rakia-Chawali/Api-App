@@ -1,0 +1,65 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+.cards{
+    display: inline;
+}
+body{
+    background-image: url(https://forum.xda-developers.com/data/attachments/3941/3941097-62394d753859943e6a1a36443ef78795.jpg);
+     background-size: cover;
+}
+
+#users {
+margin: auto;
+width:70%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 2%;
+margin-top: 100px;
+color: aliceblue;
+}
+.title{
+font-family: 'Pacifico', cursive;
+font-weight: 400;
+font-size: 100px;
+color: blue;
+font-weight:bolder;
+}
+.title-2{
+    font-family: 'Lobster', cursive;
+    font-size: medium;
+     
+}
+.title-2:hover{
+    background-color: blue);
+}
+.img{
+    width: 60px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+.data{
+    margin-top: 80px;
+    width: 80%;
+    margin: auto;
+    height: 70px;
+}
+.post{
+   
+    background-color:#9EE6F0;
+    border-radius: 10px;
+   
+}
+.post-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color:#0C747D ;
+}
+
+.parag{
+    font-family: 'Oswald', sans-serif;
+}
